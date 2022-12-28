@@ -6,6 +6,8 @@
 
 Web上で 開発環境を構築
 
+[ローカルなubuntu環境ならこちら](https://github.com/kxkx5150/Haribote-OS-Linux)  
+
 <br><br><br><br><br><br>
 
 Use this templateボタンを押して、リポジトリを作ってCodespacesで開いて下さい。  
@@ -19,10 +21,7 @@ Use this templateボタンを押して、リポジトリを作ってCodespaces�
 
 https://user-images.githubusercontent.com/10168979/209822293-ae2145f7-bcc5-4066-bfdf-ecd140e26d4d.mp4
 
-
-
-
-### ポート番号は5900ではなく6080です
+ポート番号は5900ではなく6080です
 
 <br><br><br><br><br><br>
 
