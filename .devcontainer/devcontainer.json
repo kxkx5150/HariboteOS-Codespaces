@@ -1,0 +1,48 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/docker-existing-dockerfile
+{
+	"name": "Existing Dockerfile",
+	"build": {
+		// Sets the run context to one level up instead of the .devcontainer folder.
+		// Update the 'dockerFile' property if you aren't using the standard 'Dockerfile' filename.
+		"dockerfile": "Dockerfile",
+		"args": { "VARIANT": "vnc" }
+	},
+
+	// =======================================================================
+	// Uncomment to enable noVNC for GitHub Codespaces
+	// =======================================================================
+
+	"forwardPorts": [6080],
+	"overrideCommand": false,
+	"containerEnv": {
+		// Port for noVNC Web Client & WebSocket
+		"NOVNC_PORT": "6080",
+		// VNC port QEMU listens. Default to 5900 + <display number>
+		// If you run QEMU with "-vnc :1", then VNC_PORT should be 5901.
+		"VNC_PORT": "5900",
+		// QEMU launch options. Used in `run_image.sh`
+		"QEMU_OPTS": "-vnc :0"
+	},
+
+	// Set *default* container specific settings.json values on container create.
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+		"ms-vscode.cpptools"
+	],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	"postCreateCommand": "git clone https://github.com/kxkx5150/Haribote-OS-VNC.git",
+
+	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+	"remoteUser": "vscode",
+
+	"runArgs": [
+		"--privileged",
+		"--disable-content-trust=true"
+	]
+}
