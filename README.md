@@ -1,28 +1,43 @@
-# 30日でできる! OS自作入門 for devcontainer
+# 30日でできる! OS自作入門 for Codespaces
 
-はりぼてOS 
+<br>
 
-<br><br>
+## GitHub Codespaces
 
-## VSCode Remote Containers
-
-vscodeで reopen in container すれば  
-ソースコード + 開発環境　が試せます。
+Web上で 開発環境を構築
 
 <br><br><br><br><br><br>
 
-## GUI
+Use this templateボタンを押して、リポジトリを作ってCodespacesで開いて下さい。  
 
-QEMU + VNC + WebSocket
+環境構築が終われば、web上のvscodeで開発出来ます。
 
-<br>
+<br><br><br><br><br><br>
 
-### chrome で　http://localhost:6080
+### ターミナルの横のポートを右クリックして、ブラウザで確認
 
-<br>
 
-終了はブラウザを閉じて  
-ターミナルで起動しているqemuを Ctrl+cで終了
+https://user-images.githubusercontent.com/10168979/209822293-ae2145f7-bcc5-4066-bfdf-ecd140e26d4d.mp4
+
+
+
+
+### ポート番号は5900ではなく6080です
+
+<br><br><br><br><br><br>
+
+## Codespacesの使用状況を確認
+
+https://github.com/codespaces  
+
+無料で済ませたいなら、使った後は、停止してるか確認  
+無駄なコンテナは削除しましょう
+
+停止は  
+codespecesをクリックして、メニューから停止
+
+![c](https://user-images.githubusercontent.com/10168979/209823266-8ae47f4e-f86e-44a7-a013-dd480fa6c3ad.png)
+
 
 
 <br><br><br><br><br><br>
