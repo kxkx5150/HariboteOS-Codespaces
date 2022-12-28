@@ -1,6 +1,14 @@
 # 30日でできる! OS自作入門 for Codespaces
 
-<br>
+<br><br><br>
+
+
+
+https://user-images.githubusercontent.com/10168979/209826857-f1126cfa-6247-4dae-b287-72038b8221b5.mp4
+
+<br><br><br>
+
+
 
 ## GitHub Codespaces
 
