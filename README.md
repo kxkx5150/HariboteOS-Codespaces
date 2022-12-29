@@ -2,7 +2,9 @@
 
 <br><br><br>
 
+[勉強link](https://qiita.com/kxkx5150/items/c6a71610c98c0c68f542)
 
+<br><br><br>
 
 https://user-images.githubusercontent.com/10168979/209826857-f1126cfa-6247-4dae-b287-72038b8221b5.mp4
 
