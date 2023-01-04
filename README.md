@@ -1,4 +1,4 @@
-# 30日でできる! OS自作入門 for Codespaces
+# 30日でできる! OS自作入門 Codespaces
 
 <br><br><br>
 
