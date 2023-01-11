@@ -49,7 +49,7 @@ WORKDIR /home/${USERNAME}
 USER root
 
 ENV PATH="/home/${USERNAME}/osbook/devenv:${PATH}"
-ENV DISPLAY=host.docker.internal:0
+# ENV DISPLAY=host.docker.internal:0
 
 # override startup command, taken from VSCode Devcontainer logs
 CMD ["/bin/sh", "-c", "echo Container started ; trap \"exit 0\" 15; while sleep 1 & wait $!; do :; done"]
